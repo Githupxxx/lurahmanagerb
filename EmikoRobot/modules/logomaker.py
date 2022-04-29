@@ -44,10 +44,10 @@ def mediainfo(media):
 
 @register(pattern="^/logo ?(.*)")
 async def logo_gen(event):
-    xx = await event.reply("`Preparing your logo...`")
+    xx = await event.reply("`Sabar Yo lagi di bikinin...`")
     name = event.pattern_match.group(1)
     if not name:
-        await xx.edit("`Provide some text to draw!\nExample: /logo <your name>!`")
+        await xx.edit("`Provide some text to draw!\nExample: /logo <jeneng logo>!`")
         return
     bg_, font_ = "", ""
     if event.reply_to_msg_id:
