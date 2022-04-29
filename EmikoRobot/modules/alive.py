@@ -19,6 +19,6 @@ async def awake(event):
   TEXT += f"⚪ **Library Version :** `{telever}` \n\n"
   TEXT += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
-  TEXT += "**Thanks For Adding Me Here ❤️**"
+  TEXT += "**matur nuwun kanggo nambah kulo ❤️**"
   BUTTON = [[Button.url("Help", "https://t.me/mbahlurahubot?start=help"), Button.url("Support", "https://t.me/CIRCLEPOKE")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
