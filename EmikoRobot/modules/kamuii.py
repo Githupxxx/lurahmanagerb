@@ -9,7 +9,7 @@ from EmikoRobot import telethn as tbot, TEMP_DOWNLOAD_DIRECTORY, SUPPORT_CHAT
 @register(pattern="^/kamuii ?(.*)")
 async def _(fry):
     level = fry.pattern_match.group(1)
-    kntl = await fry.reply("`Deepfrying this image...`")
+    kntl = await fry.reply("`Sedang mengedit foto...`")
     if fry.fwd_from:
         return
     if not fry.reply_to_msg_id:
