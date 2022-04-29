@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an Lurah management bot [✨](https://telegra.ph/file/dac0ade914cf0bce37be6.jpg)
+✪ I'm an Pak Lurah Piye kabare sehat? [✨](https://telegra.ph/file/dac0ade914cf0bce37be6.jpg)
 ────────────────────────
 × *Uptime:* `{}`
 × `{}` *users, across* `{}` *chats.*
@@ -229,7 +229,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"👋 Hi, I'm {dispatcher.bot.first_name}. Nice to meet You.",
+            f"👋 Hi, I'm {dispatcher.bot.first_name}. Aku seneng duwe kowe dadi kancaku.",
             parse_mode=ParseMode.HTML
        )
 
@@ -798,7 +798,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                "👋 Hi, i'm alive.",
+                "👋 Hi, i'm Alhamdulillah Aku balik.",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
