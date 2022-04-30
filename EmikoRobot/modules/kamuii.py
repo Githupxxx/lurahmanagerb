@@ -39,10 +39,10 @@ async def _(fry):
             """ - don't spam notif - """
             await ubot2.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply(f"`Error, tell the problem on @{SUPPORT_CHAT}`")
+            await fry.reply(f"`boten bisa niki tulong ojo di gae @{SUPPORT_CHAT}`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit(f"`Error, tell the problem on @{SUPPORT_CHAT}`")
+            await fry.edit(f"`boten bisa niki tulong ojo di gae @{SUPPORT_CHAT}`")
         else:
             downloaded_file_name = await ubot2.download_media(
                 response.media,
