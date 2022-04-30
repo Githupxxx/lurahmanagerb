@@ -21,16 +21,16 @@ async def purge_messages(event):
         )
         and event.from_id not in [1087968824]
     ):
-        await event.reply("Only Admins are allowed to use this command")
+        await event.reply("Sampean duduk admin dadi gak kenek gae command iki")
         return
 
     if not await can_delete_messages(message=event):
-        await event.reply("Can't seem to purge the message")
+        await event.reply("muter maneh nek pesan kang pengin di hapus")
         return
 
     reply_msg = await event.get_reply_message()
     if not reply_msg:
-        await event.reply("Reply to a message to select where to start purging from.")
+        await event.reply("Mbales pesen kanggo milih saka ngendi arep miwiti ngresiki.")
         return
     messages = []
     message_id = reply_msg.id
@@ -62,16 +62,16 @@ async def delete_messages(event):
         )
         and event.from_id not in [1087968824]
     ):
-        await event.reply("Only Admins are allowed to use this command")
+        await event.reply("Sampean duduk admin dadi gak kenek gae command iki")
         return
 
     if not await can_delete_messages(message=event):
-        await event.reply("Can't seem to delete this?")
+        await event.reply("Ora bisa mbusak iki?")
         return
 
     message = await event.get_reply_message()
     if not message:
-        await event.reply("Whadya want to delete?")
+        await event.reply("Wadya arep mbusak?")
         return
     chat = await event.get_input_chat()
     del_message = [message, event.message]
