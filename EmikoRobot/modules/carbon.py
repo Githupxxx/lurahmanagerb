@@ -32,7 +32,7 @@ async def repo(_, message):
         photo=MEMEK,
         caption=f"""✨ **Hey Aku lurah ** 
 
-**Tuhan saya : [cimoon](https://t.me/Zyrexcim)**
+**Tuhan ku : [Skymon](https://t.me/kawaiine22)**
 **Python Version :** `{y()}`
 **Library Version :** `{o}`
 **Telethon Version :** `{s}`
@@ -44,9 +44,9 @@ async def repo(_, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/iCBearClub"), 
+                        "Chanel", url="https://t.me/Tfv1sqfp9YNiODlll"), 
                     InlineKeyboardButton(
-                        "Support", url="https://t.me/CIRCLEPOKE")
+                        "Support", url="https://t.me/+rF-rKBMtnSU4MTZl")
                 ]
             ]
         )
